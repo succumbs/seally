@@ -3,7 +3,7 @@
 IMG_DIR="assets"
 
 if ! command -v img2sixel &> /dev/null; then
-    echo "error: libsixel is not installed."
+    echo "error: libsixel is not installed." >&2
     exit 1
 fi
 
