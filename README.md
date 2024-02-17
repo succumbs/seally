@@ -10,5 +10,7 @@ all you need to do is run the script :)
 > 
 > not all terminals support sixel, you can check out [arewesixelyet](https://www.arewesixelyet.com/) to see if yours does
 
+
 ## special thanks
-https://github.com/sioodmy/blahaj gave me the idea for this
+- [sioodmy](https://github.com/sioodmy/blahaj) for the idea
+- the photographers of these lovely photos (sourced from [unsplash](https://unsplash.com/))
