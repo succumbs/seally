@@ -12,7 +12,7 @@ if ! [ -d "$IMG_DIR" ]; then
   exit 1
 fi
 
-img=$(find $IMG_DIR -maxdepth 1 -type f | shuf -n 1)
+img=$(find "$IMG_DIR" -maxdepth 1 -type f | shuf -n 1)
 
 if [ -z "$img" ]; then
     echo "error: no images were found in '$IMG_DIR'." >&2
